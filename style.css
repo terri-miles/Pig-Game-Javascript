@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 80%;
+    height: 100%;
+    margin: 30px auto;
+    position: relative;
+    text-align: center;
+}
+.player--0{
+    background-color: #585858af;
+    width: 50%;
+    height: 520px;
+    border-radius: 10px 0 0 10px;
+}
+.player--0 > h1{
+    color: #fff;
+    margin-top: 70px;
+}
+.player--0 > p{
+    color: #fea459e8;
+    font-size: 70px;
+}
+.scoreline{
+    width: 230px;
+    height: 120px;
+    background-color: #302f2f !important;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.scoreline > h5{
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+}
+.scoreline > p{
+    color: #fff;
+    font-size: 35px;
+}
+.player--1{
+    width: 50%;
+    height: 520px;
+    background-color: #585858af;
+    border-radius: 0 10px 10px 0;
+}
+.player--1 > h1{
+    color: #fff;
+    margin-top: 70px;
+}
+.player--1 > p{
+    color: #fea459e8;
+    font-size: 70px;
+}
+.scoreline{
+    width: 230px;
+    height: 120px;
+    background-color: #242424;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.scoreline > h5{
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+}
+.scoreline > p{
+    color: #fff;
+    font-size: 35px;
+}
+.controls{
+    position: absolute;
+    left: 41%;
+    z-index: 1;
+    padding-top: 38px;
+    display: block;
+    justify-content: center;
+    align-items: center ;
+}
+.controls > img{
+    width: 100px;
+    margin-top: 90px;
+}
+.controls > .btn-color1{
+    background-color: #fea459e8;
+    padding: 5px 50px;
+}
+.controls > .btn-color2{
+    background-color: #fea459e8;
+    padding: 5px 40px;
+    margin-top: 85px;
+}
+.controls > .btn-color3{
+    background-color: #fea459e8;
+    padding: 5px 28px;
+    margin-top: 50px;
+}
+.classHidden{
+    visibility: hidden;
+}
+.player-active{
+    background-color: #bcbcbcaf;
+}
+.player-winner{
+    background-color: #262323;
+}
+.player-winner .fPlayer{
+    color: #e94a4a !important;
+}
